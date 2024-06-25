@@ -60,7 +60,7 @@ const Page = () => {
 										</div>
 										<div className="px-6 py-4 border-t-2 border-primaryTextColor/40 bg-primaryColor/10">
 											<p className="text-[13px] text-primaryTextColor">
-												Get an Expert's Presentation of Real Estate in Dubai for
+												Get an Experts Presentation of Real Estate in Dubai for
 												Life and investment
 											</p>
 										</div>
