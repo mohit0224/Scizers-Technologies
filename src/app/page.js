@@ -15,11 +15,15 @@ const Page = () => {
 					<div className="relative max-w-6xl  mx-auto px-4 ">
 						<nav className="py-5 md:py-12 flex items-center justify-between">
 							<Image src={logo} alt="logo" />
-							<button className="hidden md:block uppercase py-3 px-10 border-2 border-primaryColor rounded-md text-sm font-semibold text-primaryTextColor">
+							<button
+								className="hidden md:block uppercase py-3 px-10 border-2 border-primaryColor rounded-md text-sm font-semibold text-primaryTextColor
+								hover:scale-105 transition-all duration-300 ease
+							"
+							>
 								enquire now
 							</button>
 
-							<button className="md:hidden text-xl text-primaryTextColor">
+							<button className="md:hidden text-xl text-primaryTextColor hover:scale-105 transition-all duration-300 ease">
 								<RxHamburgerMenu />
 							</button>
 						</nav>
@@ -54,7 +58,7 @@ const Page = () => {
 											</p>
 											<p className="text-5xl font-medium my-1">$ 425,000</p>
 											<p className="text-2xl my-2">AED 1.3 Million</p>
-											<button className="w-full px-10 py-3 mt-4 mb-8 text-primaryTextColor bg-primaryColor rounded-md uppercase">
+											<button className="w-full px-10 py-3 mt-4 mb-8 text-primaryTextColor bg-primaryColor rounded-md uppercase hover:scale-105 transition-all duration-300 ease">
 												get a presentation
 											</button>
 										</div>
@@ -151,10 +155,10 @@ const Page = () => {
 			<section className="p-4">
 				<div className="max-w-6xl mx-auto">
 					<div className="buttons w-full flex justify-center md:justify-end gap-2 ">
-						<button className="py-4 px-12 text-sm font-semibold text-primaryTextColor bg-secondaryTextColor uppercase rounded-md">
+						<button className="py-4 px-12 text-sm font-semibold text-primaryTextColor bg-secondaryTextColor uppercase rounded-md hover:scale-105 transition-all duration-300 ease">
 							exteriors
 						</button>
-						<button className="py-4 px-12 text-sm font-semibold text-secondaryTextColor border border-secondaryTextColor uppercase rounded-md">
+						<button className="py-4 px-12 text-sm font-semibold text-secondaryTextColor border border-secondaryTextColor uppercase rounded-md hover:scale-105 transition-all duration-300 ease">
 							exteriors
 						</button>
 					</div>
